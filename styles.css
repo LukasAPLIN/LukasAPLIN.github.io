@@ -3,8 +3,6 @@ body {
   margin:0;
 }
 #header {
-  background-image: url("me.jpg");
-  background-size: 800px 150px;
   background-color: #af8d29;
   height: 150px;
   line-height: 150px;
