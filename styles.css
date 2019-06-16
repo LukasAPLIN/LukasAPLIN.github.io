@@ -3,12 +3,12 @@ body {
   margin:0;
 }
 #header {
-  background-color: #af8d29;
+  background-color: black;
   height: 150px;
   line-height: 150px;
 }
 #header a {
-  color:white;
+  color:White;
   text-decoration: none;
 
   text-transform:uppercase;
@@ -32,7 +32,7 @@ body {
 }
 #header-nav li {
   display:inline;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 .container {
   max-width: 1000px;
@@ -64,17 +64,17 @@ font-size: 25px;
   font-size: 25px;
   font-family: TimesNewRoman;
 }
-a {
-  color:#1abc9c;
+#footer a {
+  color:white;
   text-decoration: none;
   padding: 10px;
 }
 a:hover {
-  color: #F6A623;
+  text-decoration: underline;
 }
 .post, .about {
   max-width: 800px;
-  padding: 60px 0;
+  padding: 10px 0;
   margin-left: 5%;
 }
 .post-author img {
@@ -113,7 +113,8 @@ h1, h2, h3, h4 {
 }
 p {
   line-height: 1.5;
-  font-size: 25px;
+  font-size: 30px;
+  vertical-align: bottom;
 }
 #content {
   padding-top: 20px;
@@ -138,4 +139,17 @@ p {
   border:2px solid black;
   margin-left: 300px;
   margin-right: 300px;
+}
+#content a {
+  color: black
+}
+summary {
+  font-size:50px
+}
+input {
+  max-width: 400px;
+  padding-left: 2em;
+  text-align: left;
+  margin-left: 4em;
+  font-size: 20px;
 }
