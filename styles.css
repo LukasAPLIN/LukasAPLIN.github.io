@@ -32,7 +32,7 @@ body {
 }
 #header-nav li {
   display:inline;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 .container {
   max-width: 1000px;
@@ -47,6 +47,7 @@ font-size: 25px;
 #footer {
   background-color: #2f2f2f;
   height: 350px;
+  padding-top: 50px
 }
 .column {
   min-width: 300px;
@@ -89,7 +90,7 @@ a:hover {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  align: center;
+  float: center;
 }
 .column img {
   width: 100px;
@@ -141,7 +142,7 @@ p {
   margin-right: 300px;
 }
 #content a {
-  color: black
+  color: white
 }
 summary {
   font-size:50px
@@ -152,4 +153,9 @@ input {
   text-align: left;
   margin-left: 4em;
   font-size: 20px;
+}
+#post{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
